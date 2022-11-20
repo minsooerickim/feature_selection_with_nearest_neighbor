@@ -1,6 +1,8 @@
 import random
 
-def leave_one_out_cross_validation():
+current_set_of_features = []
+
+def leave_one_out_cross_validation(columns, feature):
     return random.random()
 
 def read_data(file):
@@ -26,15 +28,16 @@ def main():
         feature_to_add_at_this_level = []
         best_so_far_accuracy = 0
 
-        for j in range(len(columns)):
-            print(f'-- Considering adding the {j+1} feature')
+        for j in range(1, len(columns)+1):
+            if j not in current_set_of_features:
+                print(f'-- Considering adding the {j} feature')
 
-            #TODO: Stub function for NOW
-            accuracy = leave_one_out_cross_validation(columns, j+1)
+                #TODO: Stub function for NOW
+                accuracy = leave_one_out_cross_validation(columns, j)
 
-            if accuracy > best_so_far_accuracy:
-                best_so_far_accuracy = accuracy
-                feature_to_add_at_this_level = j
+                if accuracy > best_so_far_accuracy:
+                    best_so_far_accuracy = accuracy
+                    feature_to_add_at_this_level = j
     # read_data('CS170_Large_Data__78.txt')
 
 main()
