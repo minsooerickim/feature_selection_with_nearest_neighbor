@@ -50,7 +50,7 @@ def read_data(file):
     return data
     
 def main():
-    data = read_data('CS170_Small_Data__125.txt')
+    data = read_data('CS170_Small_Data__88.txt')
     # data = read_data('CS170_Large_Data__78.txt')
 
     num_features = len(data[0]) - 1
