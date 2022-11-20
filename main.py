@@ -44,7 +44,7 @@ def read_data(file):
     f.seek(0)
     data = [[] for _ in range(num_instances)]
     for i in range(num_instances):
-        data[i] = [j for j in f.readline().split()]
+        data[i] = [float(j) for j in f.readline().split()]
 
     f.close()
     return data
@@ -53,26 +53,25 @@ def main():
     data = read_data('CS170_Small_Data__125.txt')
     # read_data('CS170_Large_Data__78.txt')
 
+    num_features = len(data[0]) - 1
     current_set_of_features = []
 
-    for i in range(len(data)):
+    for i in range(num_features):
         print(f'\nOn the {i+1} level of the search tree')
         
         feature_to_add_at_this_level = -1
         best_so_far_accuracy = 0
 
-        for j in range(1, len(data)+1):
+        for j in range(1, num_features+1):
             if j not in current_set_of_features:
                 print(f'-- Considering adding the {j} feature')
-
-                #TODO: Stub function for NOW
                 accuracy = leave_one_out_cross_validation(data, current_set_of_features, j)
 
                 if accuracy > best_so_far_accuracy:
                     best_so_far_accuracy = accuracy
                     feature_to_add_at_this_level = j
-            current_set_of_features.append(feature_to_add_at_this_level)
-            print(f'On level {i+1}, I added feature {feature_to_add_at_this_level} to current set')
+                current_set_of_features.append(feature_to_add_at_this_level)
+        print(f'On level {i+1}, I added feature {feature_to_add_at_this_level} to current set')
 
     print(f'\nThe best features are {current_set_of_features}')
 
