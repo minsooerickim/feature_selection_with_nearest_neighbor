@@ -51,29 +51,45 @@ def read_data(file):
     
 def main():
     data = read_data('CS170_Small_Data__125.txt')
-    # read_data('CS170_Large_Data__78.txt')
+    # data = read_data('CS170_Large_Data__78.txt')
 
     num_features = len(data[0]) - 1
-    current_set_of_features = []
+    current_set_of_features, best_features = [], []
 
+    best_so_far_accuracy = 0
     for i in range(num_features):
         print(f'\nOn the {i+1} level of the search tree')
         
         feature_to_add_at_this_level = -1
-        best_so_far_accuracy = 0
+
+        # flag to tell a better accuracy was found at each level
+        better_accuracy_found = False
 
         for j in range(1, num_features+1):
             if j not in current_set_of_features:
                 print(f'-- Considering adding the {j} feature')
-                accuracy = leave_one_out_cross_validation(data, current_set_of_features, j)
+                
+                accuracy = leave_one_out_cross_validation(data, current_set_of_features+[j], j)
+                print(f'---- accuracy with {current_set_of_features+[j]} : {accuracy}')
 
                 if accuracy > best_so_far_accuracy:
                     best_so_far_accuracy = accuracy
                     feature_to_add_at_this_level = j
-                current_set_of_features.append(feature_to_add_at_this_level)
-        print(f'On level {i+1}, I added feature {feature_to_add_at_this_level} to current set')
+                    better_accuracy_found = True
 
-    print(f'\nThe best features are {current_set_of_features}')
+        if better_accuracy_found: 
+            best_features.append(feature_to_add_at_this_level)
+            current_set_of_features.append(feature_to_add_at_this_level)
+            print(f'\nfeature subset {best_features} had the highest accuracy of {best_so_far_accuracy}')
+        else:
+            # add feature to current_set_of_features regardless of better_accuracy_found for potential higher accuracy late on
+            current_set_of_features.append(feature_to_add_at_this_level)
+            print(f'\nThe best accuracy at this level, {accuracy} was less than the best so far accuracy of {best_so_far_accuracy}')
+
+        print(f'On level {i+1}, I added feature {feature_to_add_at_this_level} to current set')
+        print('-----------------------------------------------')
+
+    print(f'\nThe best features are {best_features} with accuracy {best_so_far_accuracy}')
 
 main()
 
