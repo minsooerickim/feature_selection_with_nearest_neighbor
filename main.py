@@ -36,23 +36,7 @@ def leave_one_out_cross_validation(data, current_set, feature_to_add):
     accuracy = number_correctly_classified / len(data)
     return accuracy
 
-def read_data(file):
-    f = open(file, 'r')
-    lines = f.readlines()
-    num_instances = sum(1 for _ in lines)
-
-    f.seek(0)
-    data = [[] for _ in range(num_instances)]
-    for i in range(num_instances):
-        data[i] = [float(j) for j in f.readline().split()]
-
-    f.close()
-    return data
-    
-def main():
-    data = read_data('CS170_Small_Data__88.txt')
-    # data = read_data('CS170_Large_Data__78.txt')
-
+def forward_selection(data):
     num_features = len(data[0]) - 1
     current_set_of_features, best_features = [], []
 
@@ -90,6 +74,25 @@ def main():
         print('-----------------------------------------------')
 
     print(f'\nThe best features are {best_features} with accuracy {best_so_far_accuracy}')
+
+def read_data(file):
+    f = open(file, 'r')
+    lines = f.readlines()
+    num_instances = sum(1 for _ in lines)
+
+    f.seek(0)
+    data = [[] for _ in range(num_instances)]
+    for i in range(num_instances):
+        data[i] = [float(j) for j in f.readline().split()]
+
+    f.close()
+    return data
+    
+def main():
+    data = read_data('CS170_Small_Data__88.txt')
+    forward_selection(data)
+    # data = read_data('CS170_Large_Data__78.txt')
+
 
 main()
 
