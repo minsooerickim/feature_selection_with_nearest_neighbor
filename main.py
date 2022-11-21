@@ -49,6 +49,7 @@ def forward_selection(data):
 
         # flag to tell a better accuracy was found at each level
         better_accuracy_found = False
+        best_lvl_accuracy = 0
 
         for j in range(1, num_features+1):
             if j not in current_set_of_features:
@@ -59,19 +60,23 @@ def forward_selection(data):
 
                 if accuracy > best_so_far_accuracy:
                     best_so_far_accuracy = accuracy
-                    feature_to_add_at_this_level = j
+                    best_feature_to_add_at_this_level = j
                     better_accuracy_found = True
+                elif accuracy > best_lvl_accuracy:
+                    best_lvl_accuracy = accuracy
+                    lvl_feature = j
 
         if better_accuracy_found: 
-            best_features.append(feature_to_add_at_this_level)
-            current_set_of_features.append(feature_to_add_at_this_level)
+            best_features.append(best_feature_to_add_at_this_level)
+            current_set_of_features.append(best_feature_to_add_at_this_level)
             print(f'\nfeature subset {best_features} had the highest accuracy of {best_so_far_accuracy}')
+            print(f'On level {i+1}, I added feature {best_feature_to_add_at_this_level} to current set')
         else:
             # add feature to current_set_of_features regardless of better_accuracy_found for potential higher accuracy late on
-            current_set_of_features.append(feature_to_add_at_this_level)
-            print(f'\nThe best accuracy at this level, {accuracy} was less than the best so far accuracy of {best_so_far_accuracy}')
+            current_set_of_features.append(lvl_feature)
+            print(f'\nThe best accuracy at this level, {best_lvl_accuracy} was less than the best so far accuracy of {best_so_far_accuracy}')
+            print(f'On level {i+1}, I added feature {lvl_feature} to current set')
 
-        print(f'On level {i+1}, I added feature {feature_to_add_at_this_level} to current set')
         print('-----------------------------------------------')
 
     print(f'\nThe best features are {best_features} with accuracy {best_so_far_accuracy}')
@@ -101,22 +106,23 @@ def backward_elimination(data):
 
                 if accuracy > best_so_far_accuracy:
                     best_so_far_accuracy = accuracy
-                    feature_to_remove_at_this_level = j
+                    best_feature_to_remove_at_this_level = j
                     better_accuracy_found = True
                 elif accuracy > best_lvl_accuracy:
                     best_lvl_accuracy = accuracy
-                    feature_to_remove_at_this_level = j
+                    lvl_feature_to_remove = j
 
         if better_accuracy_found: 
-            best_features.remove(feature_to_remove_at_this_level)
-            current_set_of_features.remove(feature_to_remove_at_this_level)
+            best_features.remove(best_feature_to_remove_at_this_level)
+            current_set_of_features.remove(best_feature_to_remove_at_this_level)
             print(f'\nfeature subset {best_features} had the highest accuracy of {best_so_far_accuracy}')
+            print(f'On level {i+1}, I removed feature {best_feature_to_remove_at_this_level} to current set')
         else:
             # add feature to current_set_of_features regardless of better_accuracy_found for potential higher accuracy late on
-            current_set_of_features.remove(feature_to_remove_at_this_level)
+            current_set_of_features.remove(lvl_feature_to_remove)
             print(f'\nThe best accuracy at this level, {best_lvl_accuracy} was less than the best so far accuracy of {best_so_far_accuracy}')
+            print(f'On level {i+1}, I removed feature {lvl_feature_to_remove} to current set')
 
-        print(f'On level {i+1}, I removed feature {feature_to_remove_at_this_level} to current set')
         print('-----------------------------------------------')
 
     print(f'\nThe best features are {best_features} with accuracy {best_so_far_accuracy}')
@@ -135,11 +141,14 @@ def read_data(file):
     return data
     
 def main():
-    data = read_data('CS170_Small_Data__88.txt')
+    file_name = input('Enter the input file name: ')
+    data = read_data(file_name)
     # data = read_data('CS170_Large_Data__78.txt')
     
-    # forward_selection(data)
-    backward_elimination(data)
+    option = str(input('\n1. forward selection\n2. backward_elimination\n'))
+    if option == '1': forward_selection(data)
+    elif option == '2': backward_elimination(data)
+    else: print('please enter a valid option')
 
 
 main()
