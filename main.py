@@ -1,4 +1,7 @@
+# used to calculate euclidean distance
 import math
+# used to record the elapsed time of the algorithms
+from time import time
 
 def nearest_neighbor_classifier(data, object_to_classify, current_set):
     nearest_neighbor_distance, nearest_neighbor_location = math.inf, math.inf
@@ -113,15 +116,17 @@ def backward_elimination(data):
                     lvl_feature_to_remove = j
 
         if better_accuracy_found: 
-            best_features.remove(best_feature_to_remove_at_this_level)
             current_set_of_features.remove(best_feature_to_remove_at_this_level)
+            best_features = [feature for feature in current_set_of_features]
             print(f'\nfeature subset {best_features} had the highest accuracy of {best_so_far_accuracy}')
-            print(f'On level {i+1}, I removed feature {best_feature_to_remove_at_this_level} to current set')
+            print(f'On level {i+1}, I removed feature {best_feature_to_remove_at_this_level} from the current set')
         else:
             # add feature to current_set_of_features regardless of better_accuracy_found for potential higher accuracy late on
             current_set_of_features.remove(lvl_feature_to_remove)
+            print('\nAccuracy Decreased! :(')
             print(f'\nThe best accuracy at this level, {best_lvl_accuracy} was less than the best so far accuracy of {best_so_far_accuracy}')
-            print(f'On level {i+1}, I removed feature {lvl_feature_to_remove} to current set')
+            print(f'\nThe current set is now {current_set_of_features}')
+            print(f'On level {i+1}, I removed feature {lvl_feature_to_remove} from the current set')
 
         print('-----------------------------------------------')
 
@@ -146,10 +151,18 @@ def main():
     # data = read_data('CS170_Large_Data__78.txt')
     
     option = str(input('\n1. forward selection\n2. backward_elimination\n'))
+
+    # time to measure the elapsed time of the algorithm to be run
+    start_time = time()
+
     if option == '1': forward_selection(data)
     elif option == '2': backward_elimination(data)
-    else: print('please enter a valid option')
+    else: 
+        print('please enter a valid option')
+        return
 
-
+    end_time = time()
+    # take the difference between start_time and end_time to find the total elapsed time
+    print(f"\nElapsed time: {end_time - start_time} seconds\n")
 main()
 
