@@ -3,6 +3,7 @@ import math
 # used to record the elapsed time of the algorithms
 from time import time
 
+#TODO: Add more comments and typings
 def nearest_neighbor_classifier(data, object_to_classify, current_set):
     nearest_neighbor_distance, nearest_neighbor_location = math.inf, math.inf
     for i in range(len(data)):
@@ -70,14 +71,14 @@ def forward_selection(data):
                     lvl_feature = j
 
         if better_accuracy_found: 
-            best_features.append(best_feature_to_add_at_this_level)
             current_set_of_features.append(best_feature_to_add_at_this_level)
+            best_features = [feature for feature in current_set_of_features]
             print(f'\nfeature subset {best_features} had the highest accuracy of {best_so_far_accuracy}')
             print(f'On level {i+1}, I added feature {best_feature_to_add_at_this_level} to current set')
         else:
             # add feature to current_set_of_features regardless of better_accuracy_found for potential higher accuracy late on
             current_set_of_features.append(lvl_feature)
-            print(f'\nThe best accuracy at this level, {best_lvl_accuracy} was less than the best so far accuracy of {best_so_far_accuracy}')
+            print(f'\nThe best accuracy at this level, {current_set_of_features} : {best_lvl_accuracy} was less than the best so far accuracy of {best_so_far_accuracy}')
             print(f'On level {i+1}, I added feature {lvl_feature} to current set')
 
         print('-----------------------------------------------')
@@ -111,7 +112,7 @@ def backward_elimination(data):
                     best_so_far_accuracy = accuracy
                     best_feature_to_remove_at_this_level = j
                     better_accuracy_found = True
-                elif accuracy > best_lvl_accuracy:
+                elif accuracy >= best_lvl_accuracy:
                     best_lvl_accuracy = accuracy
                     lvl_feature_to_remove = j
 
