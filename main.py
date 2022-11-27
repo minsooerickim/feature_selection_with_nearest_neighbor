@@ -2,6 +2,11 @@
 import math
 # used to record the elapsed time of the algorithms
 from time import time
+# helper graph plotting function
+from utility import graph
+
+# lists to keep track of accuracies and feature sets for matlab plotting
+matlab_feature_set, matlab_accuracy = [], []
 
 #TODO: Add more comments and typings
 def nearest_neighbor_classifier(data, object_to_classify, current_set):
@@ -47,6 +52,10 @@ def forward_selection(data):
     num_features = len(data[0]) - 1
     current_set_of_features, best_features = [], []
 
+    # initial accuracy and feature set for matlab plotting
+    matlab_accuracy.append(leave_one_out_cross_validation(data, []))
+    matlab_feature_set.append([])
+
     best_so_far_accuracy = 0
     for i in range(num_features):
         print(f'\nOn the {i+1} level of the search tree')
@@ -61,6 +70,10 @@ def forward_selection(data):
                 
                 accuracy = leave_one_out_cross_validation(data, current_set_of_features+[j])
                 print(f'---- accuracy with {current_set_of_features+[j]} : {accuracy}')
+
+                # store accuracy for plotting bar chart with matlab
+                matlab_accuracy.append(accuracy)
+                matlab_feature_set.append(current_set_of_features+[j])
 
                 if accuracy > best_so_far_accuracy:
                     best_so_far_accuracy = accuracy
@@ -165,5 +178,7 @@ def main():
     end_time = time()
     # take the difference between start_time and end_time to find the total elapsed time
     print(f"\nElapsed time: {end_time - start_time} seconds\n")
+
+    graph(matlab_accuracy, matlab_feature_set, file_name)
 main()
 
