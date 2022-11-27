@@ -1,0 +1,1888 @@
+Enter the input file name: 
+1. forward selection
+2. backward_elimination
+
+On the 1 level of the search tree
+-- Considering adding the 1 feature
+---- accuracy with [1] : 0.667
+-- Considering adding the 2 feature
+---- accuracy with [2] : 0.682
+-- Considering adding the 3 feature
+---- accuracy with [3] : 0.703
+-- Considering adding the 4 feature
+---- accuracy with [4] : 0.686
+-- Considering adding the 5 feature
+---- accuracy with [5] : 0.668
+-- Considering adding the 6 feature
+---- accuracy with [6] : 0.697
+-- Considering adding the 7 feature
+---- accuracy with [7] : 0.721
+-- Considering adding the 8 feature
+---- accuracy with [8] : 0.694
+-- Considering adding the 9 feature
+---- accuracy with [9] : 0.694
+-- Considering adding the 10 feature
+---- accuracy with [10] : 0.756
+-- Considering adding the 11 feature
+---- accuracy with [11] : 0.688
+-- Considering adding the 12 feature
+---- accuracy with [12] : 0.721
+-- Considering adding the 13 feature
+---- accuracy with [13] : 0.692
+-- Considering adding the 14 feature
+---- accuracy with [14] : 0.684
+-- Considering adding the 15 feature
+---- accuracy with [15] : 0.691
+-- Considering adding the 16 feature
+---- accuracy with [16] : 0.699
+-- Considering adding the 17 feature
+---- accuracy with [17] : 0.683
+-- Considering adding the 18 feature
+---- accuracy with [18] : 0.673
+-- Considering adding the 19 feature
+---- accuracy with [19] : 0.677
+-- Considering adding the 20 feature
+---- accuracy with [20] : 0.662
+-- Considering adding the 21 feature
+---- accuracy with [21] : 0.853
+-- Considering adding the 22 feature
+---- accuracy with [22] : 0.674
+-- Considering adding the 23 feature
+---- accuracy with [23] : 0.7
+-- Considering adding the 24 feature
+---- accuracy with [24] : 0.713
+-- Considering adding the 25 feature
+---- accuracy with [25] : 0.684
+-- Considering adding the 26 feature
+---- accuracy with [26] : 0.69
+-- Considering adding the 27 feature
+---- accuracy with [27] : 0.687
+-- Considering adding the 28 feature
+---- accuracy with [28] : 0.702
+-- Considering adding the 29 feature
+---- accuracy with [29] : 0.66
+-- Considering adding the 30 feature
+---- accuracy with [30] : 0.685
+-- Considering adding the 31 feature
+---- accuracy with [31] : 0.687
+-- Considering adding the 32 feature
+---- accuracy with [32] : 0.693
+-- Considering adding the 33 feature
+---- accuracy with [33] : 0.686
+-- Considering adding the 34 feature
+---- accuracy with [34] : 0.681
+-- Considering adding the 35 feature
+---- accuracy with [35] : 0.713
+-- Considering adding the 36 feature
+---- accuracy with [36] : 0.678
+-- Considering adding the 37 feature
+---- accuracy with [37] : 0.708
+-- Considering adding the 38 feature
+---- accuracy with [38] : 0.711
+-- Considering adding the 39 feature
+---- accuracy with [39] : 0.693
+-- Considering adding the 40 feature
+---- accuracy with [40] : 0.676
+
+feature subset [21] had the highest accuracy of 0.853
+On level 1, I added feature 21 to current set
+-----------------------------------------------
+
+On the 2 level of the search tree
+-- Considering adding the 1 feature
+---- accuracy with [21, 1] : 0.833
+-- Considering adding the 2 feature
+---- accuracy with [21, 2] : 0.817
+-- Considering adding the 3 feature
+---- accuracy with [21, 3] : 0.841
+-- Considering adding the 4 feature
+---- accuracy with [21, 4] : 0.837
+-- Considering adding the 5 feature
+---- accuracy with [21, 5] : 0.821
+-- Considering adding the 6 feature
+---- accuracy with [21, 6] : 0.83
+-- Considering adding the 7 feature
+---- accuracy with [21, 7] : 0.844
+-- Considering adding the 8 feature
+---- accuracy with [21, 8] : 0.844
+-- Considering adding the 9 feature
+---- accuracy with [21, 9] : 0.843
+-- Considering adding the 10 feature
+---- accuracy with [21, 10] : 0.963
+-- Considering adding the 11 feature
+---- accuracy with [21, 11] : 0.835
+-- Considering adding the 12 feature
+---- accuracy with [21, 12] : 0.816
+-- Considering adding the 13 feature
+---- accuracy with [21, 13] : 0.832
+-- Considering adding the 14 feature
+---- accuracy with [21, 14] : 0.836
+-- Considering adding the 15 feature
+---- accuracy with [21, 15] : 0.845
+-- Considering adding the 16 feature
+---- accuracy with [21, 16] : 0.839
+-- Considering adding the 17 feature
+---- accuracy with [21, 17] : 0.83
+-- Considering adding the 18 feature
+---- accuracy with [21, 18] : 0.818
+-- Considering adding the 19 feature
+---- accuracy with [21, 19] : 0.832
+-- Considering adding the 20 feature
+---- accuracy with [21, 20] : 0.823
+-- Considering adding the 22 feature
+---- accuracy with [21, 22] : 0.83
+-- Considering adding the 23 feature
+---- accuracy with [21, 23] : 0.814
+-- Considering adding the 24 feature
+---- accuracy with [21, 24] : 0.828
+-- Considering adding the 25 feature
+---- accuracy with [21, 25] : 0.845
+-- Considering adding the 26 feature
+---- accuracy with [21, 26] : 0.853
+-- Considering adding the 27 feature
+---- accuracy with [21, 27] : 0.83
+-- Considering adding the 28 feature
+---- accuracy with [21, 28] : 0.833
+-- Considering adding the 29 feature
+---- accuracy with [21, 29] : 0.847
+-- Considering adding the 30 feature
+---- accuracy with [21, 30] : 0.831
+-- Considering adding the 31 feature
+---- accuracy with [21, 31] : 0.816
+-- Considering adding the 32 feature
+---- accuracy with [21, 32] : 0.826
+-- Considering adding the 33 feature
+---- accuracy with [21, 33] : 0.851
+-- Considering adding the 34 feature
+---- accuracy with [21, 34] : 0.824
+-- Considering adding the 35 feature
+---- accuracy with [21, 35] : 0.833
+-- Considering adding the 36 feature
+---- accuracy with [21, 36] : 0.824
+-- Considering adding the 37 feature
+---- accuracy with [21, 37] : 0.821
+-- Considering adding the 38 feature
+---- accuracy with [21, 38] : 0.827
+-- Considering adding the 39 feature
+---- accuracy with [21, 39] : 0.828
+-- Considering adding the 40 feature
+---- accuracy with [21, 40] : 0.829
+
+feature subset [21, 10] had the highest accuracy of 0.963
+On level 2, I added feature 10 to current set
+-----------------------------------------------
+
+On the 3 level of the search tree
+-- Considering adding the 1 feature
+---- accuracy with [21, 10, 1] : 0.922
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 2] : 0.925
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 3] : 0.932
+-- Considering adding the 4 feature
+---- accuracy with [21, 10, 4] : 0.94
+-- Considering adding the 5 feature
+---- accuracy with [21, 10, 5] : 0.92
+-- Considering adding the 6 feature
+---- accuracy with [21, 10, 6] : 0.932
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 7] : 0.928
+-- Considering adding the 8 feature
+---- accuracy with [21, 10, 8] : 0.947
+-- Considering adding the 9 feature
+---- accuracy with [21, 10, 9] : 0.936
+-- Considering adding the 11 feature
+---- accuracy with [21, 10, 11] : 0.923
+-- Considering adding the 12 feature
+---- accuracy with [21, 10, 12] : 0.935
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 13] : 0.93
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 14] : 0.944
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 15] : 0.927
+-- Considering adding the 16 feature
+---- accuracy with [21, 10, 16] : 0.916
+-- Considering adding the 17 feature
+---- accuracy with [21, 10, 17] : 0.943
+-- Considering adding the 18 feature
+---- accuracy with [21, 10, 18] : 0.938
+-- Considering adding the 19 feature
+---- accuracy with [21, 10, 19] : 0.923
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 20] : 0.929
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 22] : 0.935
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 23] : 0.943
+-- Considering adding the 24 feature
+---- accuracy with [21, 10, 24] : 0.92
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 25] : 0.912
+-- Considering adding the 26 feature
+---- accuracy with [21, 10, 26] : 0.926
+-- Considering adding the 27 feature
+---- accuracy with [21, 10, 27] : 0.942
+-- Considering adding the 28 feature
+---- accuracy with [21, 10, 28] : 0.927
+-- Considering adding the 29 feature
+---- accuracy with [21, 10, 29] : 0.931
+-- Considering adding the 30 feature
+---- accuracy with [21, 10, 30] : 0.92
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 31] : 0.929
+-- Considering adding the 32 feature
+---- accuracy with [21, 10, 32] : 0.931
+-- Considering adding the 33 feature
+---- accuracy with [21, 10, 33] : 0.926
+-- Considering adding the 34 feature
+---- accuracy with [21, 10, 34] : 0.935
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 35] : 0.932
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 36] : 0.928
+-- Considering adding the 37 feature
+---- accuracy with [21, 10, 37] : 0.922
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 38] : 0.93
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 39] : 0.935
+-- Considering adding the 40 feature
+---- accuracy with [21, 10, 40] : 0.931
+
+The best accuracy at this level, 0.947 was less than the best so far accuracy of 0.963
+On level 3, I added feature 8 to current set
+-----------------------------------------------
+
+On the 4 level of the search tree
+-- Considering adding the 1 feature
+---- accuracy with [21, 10, 8, 1] : 0.901
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 2] : 0.906
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 3] : 0.91
+-- Considering adding the 4 feature
+---- accuracy with [21, 10, 8, 4] : 0.905
+-- Considering adding the 5 feature
+---- accuracy with [21, 10, 8, 5] : 0.908
+-- Considering adding the 6 feature
+---- accuracy with [21, 10, 8, 6] : 0.911
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 7] : 0.912
+-- Considering adding the 9 feature
+---- accuracy with [21, 10, 8, 9] : 0.922
+-- Considering adding the 11 feature
+---- accuracy with [21, 10, 8, 11] : 0.911
+-- Considering adding the 12 feature
+---- accuracy with [21, 10, 8, 12] : 0.928
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 13] : 0.904
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 14] : 0.915
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 15] : 0.906
+-- Considering adding the 16 feature
+---- accuracy with [21, 10, 8, 16] : 0.885
+-- Considering adding the 17 feature
+---- accuracy with [21, 10, 8, 17] : 0.912
+-- Considering adding the 18 feature
+---- accuracy with [21, 10, 8, 18] : 0.922
+-- Considering adding the 19 feature
+---- accuracy with [21, 10, 8, 19] : 0.917
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 20] : 0.909
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 22] : 0.901
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 8, 23] : 0.916
+-- Considering adding the 24 feature
+---- accuracy with [21, 10, 8, 24] : 0.896
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 25] : 0.89
+-- Considering adding the 26 feature
+---- accuracy with [21, 10, 8, 26] : 0.917
+-- Considering adding the 27 feature
+---- accuracy with [21, 10, 8, 27] : 0.895
+-- Considering adding the 28 feature
+---- accuracy with [21, 10, 8, 28] : 0.913
+-- Considering adding the 29 feature
+---- accuracy with [21, 10, 8, 29] : 0.899
+-- Considering adding the 30 feature
+---- accuracy with [21, 10, 8, 30] : 0.925
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 31] : 0.905
+-- Considering adding the 32 feature
+---- accuracy with [21, 10, 8, 32] : 0.909
+-- Considering adding the 33 feature
+---- accuracy with [21, 10, 8, 33] : 0.912
+-- Considering adding the 34 feature
+---- accuracy with [21, 10, 8, 34] : 0.904
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 35] : 0.916
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 36] : 0.901
+-- Considering adding the 37 feature
+---- accuracy with [21, 10, 8, 37] : 0.914
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 38] : 0.908
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 39] : 0.927
+-- Considering adding the 40 feature
+---- accuracy with [21, 10, 8, 40] : 0.914
+
+The best accuracy at this level, 0.928 was less than the best so far accuracy of 0.963
+On level 4, I added feature 12 to current set
+-----------------------------------------------
+
+On the 5 level of the search tree
+-- Considering adding the 1 feature
+---- accuracy with [21, 10, 8, 12, 1] : 0.872
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 12, 2] : 0.883
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 3] : 0.881
+-- Considering adding the 4 feature
+---- accuracy with [21, 10, 8, 12, 4] : 0.883
+-- Considering adding the 5 feature
+---- accuracy with [21, 10, 8, 12, 5] : 0.884
+-- Considering adding the 6 feature
+---- accuracy with [21, 10, 8, 12, 6] : 0.871
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 7] : 0.875
+-- Considering adding the 9 feature
+---- accuracy with [21, 10, 8, 12, 9] : 0.883
+-- Considering adding the 11 feature
+---- accuracy with [21, 10, 8, 12, 11] : 0.874
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 13] : 0.855
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 14] : 0.88
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 15] : 0.879
+-- Considering adding the 16 feature
+---- accuracy with [21, 10, 8, 12, 16] : 0.879
+-- Considering adding the 17 feature
+---- accuracy with [21, 10, 8, 12, 17] : 0.866
+-- Considering adding the 18 feature
+---- accuracy with [21, 10, 8, 12, 18] : 0.884
+-- Considering adding the 19 feature
+---- accuracy with [21, 10, 8, 12, 19] : 0.872
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 20] : 0.862
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 22] : 0.865
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 8, 12, 23] : 0.881
+-- Considering adding the 24 feature
+---- accuracy with [21, 10, 8, 12, 24] : 0.869
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 25] : 0.862
+-- Considering adding the 26 feature
+---- accuracy with [21, 10, 8, 12, 26] : 0.876
+-- Considering adding the 27 feature
+---- accuracy with [21, 10, 8, 12, 27] : 0.884
+-- Considering adding the 28 feature
+---- accuracy with [21, 10, 8, 12, 28] : 0.881
+-- Considering adding the 29 feature
+---- accuracy with [21, 10, 8, 12, 29] : 0.897
+-- Considering adding the 30 feature
+---- accuracy with [21, 10, 8, 12, 30] : 0.876
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 31] : 0.883
+-- Considering adding the 32 feature
+---- accuracy with [21, 10, 8, 12, 32] : 0.884
+-- Considering adding the 33 feature
+---- accuracy with [21, 10, 8, 12, 33] : 0.899
+-- Considering adding the 34 feature
+---- accuracy with [21, 10, 8, 12, 34] : 0.871
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 35] : 0.868
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 36] : 0.872
+-- Considering adding the 37 feature
+---- accuracy with [21, 10, 8, 12, 37] : 0.865
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 38] : 0.88
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 39] : 0.866
+-- Considering adding the 40 feature
+---- accuracy with [21, 10, 8, 12, 40] : 0.868
+
+The best accuracy at this level, 0.899 was less than the best so far accuracy of 0.963
+On level 5, I added feature 33 to current set
+-----------------------------------------------
+
+On the 6 level of the search tree
+-- Considering adding the 1 feature
+---- accuracy with [21, 10, 8, 12, 33, 1] : 0.856
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 12, 33, 2] : 0.853
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 3] : 0.854
+-- Considering adding the 4 feature
+---- accuracy with [21, 10, 8, 12, 33, 4] : 0.855
+-- Considering adding the 5 feature
+---- accuracy with [21, 10, 8, 12, 33, 5] : 0.859
+-- Considering adding the 6 feature
+---- accuracy with [21, 10, 8, 12, 33, 6] : 0.861
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 7] : 0.845
+-- Considering adding the 9 feature
+---- accuracy with [21, 10, 8, 12, 33, 9] : 0.846
+-- Considering adding the 11 feature
+---- accuracy with [21, 10, 8, 12, 33, 11] : 0.85
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 13] : 0.853
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 14] : 0.862
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 15] : 0.849
+-- Considering adding the 16 feature
+---- accuracy with [21, 10, 8, 12, 33, 16] : 0.838
+-- Considering adding the 17 feature
+---- accuracy with [21, 10, 8, 12, 33, 17] : 0.856
+-- Considering adding the 18 feature
+---- accuracy with [21, 10, 8, 12, 33, 18] : 0.845
+-- Considering adding the 19 feature
+---- accuracy with [21, 10, 8, 12, 33, 19] : 0.859
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 20] : 0.85
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 22] : 0.851
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 8, 12, 33, 23] : 0.841
+-- Considering adding the 24 feature
+---- accuracy with [21, 10, 8, 12, 33, 24] : 0.837
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 25] : 0.854
+-- Considering adding the 26 feature
+---- accuracy with [21, 10, 8, 12, 33, 26] : 0.844
+-- Considering adding the 27 feature
+---- accuracy with [21, 10, 8, 12, 33, 27] : 0.863
+-- Considering adding the 28 feature
+---- accuracy with [21, 10, 8, 12, 33, 28] : 0.848
+-- Considering adding the 29 feature
+---- accuracy with [21, 10, 8, 12, 33, 29] : 0.877
+-- Considering adding the 30 feature
+---- accuracy with [21, 10, 8, 12, 33, 30] : 0.87
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 31] : 0.864
+-- Considering adding the 32 feature
+---- accuracy with [21, 10, 8, 12, 33, 32] : 0.85
+-- Considering adding the 34 feature
+---- accuracy with [21, 10, 8, 12, 33, 34] : 0.865
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 35] : 0.852
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 36] : 0.876
+-- Considering adding the 37 feature
+---- accuracy with [21, 10, 8, 12, 33, 37] : 0.858
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 38] : 0.859
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 33, 39] : 0.857
+-- Considering adding the 40 feature
+---- accuracy with [21, 10, 8, 12, 33, 40] : 0.846
+
+The best accuracy at this level, 0.877 was less than the best so far accuracy of 0.963
+On level 6, I added feature 29 to current set
+-----------------------------------------------
+
+On the 7 level of the search tree
+-- Considering adding the 1 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 1] : 0.845
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 2] : 0.836
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 3] : 0.844
+-- Considering adding the 4 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 4] : 0.822
+-- Considering adding the 5 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 5] : 0.848
+-- Considering adding the 6 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 6] : 0.828
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 7] : 0.828
+-- Considering adding the 9 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 9] : 0.822
+-- Considering adding the 11 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 11] : 0.838
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 13] : 0.843
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 14] : 0.835
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 15] : 0.84
+-- Considering adding the 16 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 16] : 0.836
+-- Considering adding the 17 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 17] : 0.819
+-- Considering adding the 18 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 18] : 0.826
+-- Considering adding the 19 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 19] : 0.827
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 20] : 0.845
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 22] : 0.828
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 23] : 0.838
+-- Considering adding the 24 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 24] : 0.839
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 25] : 0.825
+-- Considering adding the 26 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 26] : 0.832
+-- Considering adding the 27 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27] : 0.851
+-- Considering adding the 28 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 28] : 0.836
+-- Considering adding the 30 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 30] : 0.846
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 31] : 0.831
+-- Considering adding the 32 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 32] : 0.832
+-- Considering adding the 34 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 34] : 0.838
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 35] : 0.831
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 36] : 0.832
+-- Considering adding the 37 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 37] : 0.843
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 38] : 0.808
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 39] : 0.84
+-- Considering adding the 40 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 40] : 0.818
+
+The best accuracy at this level, 0.851 was less than the best so far accuracy of 0.963
+On level 7, I added feature 27 to current set
+-----------------------------------------------
+
+On the 8 level of the search tree
+-- Considering adding the 1 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1] : 0.829
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 2] : 0.8
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 3] : 0.826
+-- Considering adding the 4 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 4] : 0.809
+-- Considering adding the 5 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 5] : 0.804
+-- Considering adding the 6 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 6] : 0.8
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 7] : 0.823
+-- Considering adding the 9 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 9] : 0.814
+-- Considering adding the 11 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 11] : 0.797
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 13] : 0.804
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 14] : 0.8
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 15] : 0.809
+-- Considering adding the 16 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 16] : 0.8
+-- Considering adding the 17 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 17] : 0.803
+-- Considering adding the 18 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 18] : 0.829
+-- Considering adding the 19 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 19] : 0.791
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 20] : 0.808
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 22] : 0.793
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 23] : 0.804
+-- Considering adding the 24 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 24] : 0.8
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 25] : 0.797
+-- Considering adding the 26 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 26] : 0.816
+-- Considering adding the 28 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 28] : 0.81
+-- Considering adding the 30 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 30] : 0.807
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 31] : 0.813
+-- Considering adding the 32 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 32] : 0.824
+-- Considering adding the 34 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 34] : 0.821
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 35] : 0.808
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 36] : 0.812
+-- Considering adding the 37 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 37] : 0.801
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 38] : 0.796
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 39] : 0.803
+-- Considering adding the 40 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 40] : 0.79
+
+The best accuracy at this level, 0.829 was less than the best so far accuracy of 0.963
+On level 8, I added feature 1 to current set
+-----------------------------------------------
+
+On the 9 level of the search tree
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 2] : 0.777
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 3] : 0.778
+-- Considering adding the 4 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 4] : 0.797
+-- Considering adding the 5 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 5] : 0.778
+-- Considering adding the 6 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 6] : 0.776
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 7] : 0.794
+-- Considering adding the 9 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 9] : 0.813
+-- Considering adding the 11 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 11] : 0.769
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 13] : 0.794
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 14] : 0.799
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 15] : 0.797
+-- Considering adding the 16 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 16] : 0.795
+-- Considering adding the 17 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 17] : 0.772
+-- Considering adding the 18 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18] : 0.819
+-- Considering adding the 19 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 19] : 0.792
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 20] : 0.789
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 22] : 0.785
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 23] : 0.791
+-- Considering adding the 24 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 24] : 0.782
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 25] : 0.769
+-- Considering adding the 26 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 26] : 0.796
+-- Considering adding the 28 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 28] : 0.783
+-- Considering adding the 30 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 30] : 0.808
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 31] : 0.781
+-- Considering adding the 32 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 32] : 0.796
+-- Considering adding the 34 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 34] : 0.795
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 35] : 0.803
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 36] : 0.796
+-- Considering adding the 37 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 37] : 0.791
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 38] : 0.79
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 39] : 0.811
+-- Considering adding the 40 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 40] : 0.79
+
+The best accuracy at this level, 0.819 was less than the best so far accuracy of 0.963
+On level 9, I added feature 18 to current set
+-----------------------------------------------
+
+On the 10 level of the search tree
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 2] : 0.769
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 3] : 0.772
+-- Considering adding the 4 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 4] : 0.78
+-- Considering adding the 5 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 5] : 0.777
+-- Considering adding the 6 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 6] : 0.774
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 7] : 0.78
+-- Considering adding the 9 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 9] : 0.787
+-- Considering adding the 11 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 11] : 0.78
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 13] : 0.789
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 14] : 0.794
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 15] : 0.782
+-- Considering adding the 16 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 16] : 0.793
+-- Considering adding the 17 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 17] : 0.768
+-- Considering adding the 19 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 19] : 0.785
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 20] : 0.8
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 22] : 0.763
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 23] : 0.785
+-- Considering adding the 24 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 24] : 0.783
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 25] : 0.77
+-- Considering adding the 26 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 26] : 0.774
+-- Considering adding the 28 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 28] : 0.787
+-- Considering adding the 30 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30] : 0.802
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 31] : 0.771
+-- Considering adding the 32 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 32] : 0.791
+-- Considering adding the 34 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 34] : 0.8
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 35] : 0.795
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 36] : 0.779
+-- Considering adding the 37 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 37] : 0.797
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 38] : 0.769
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 39] : 0.789
+-- Considering adding the 40 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 40] : 0.772
+
+The best accuracy at this level, 0.802 was less than the best so far accuracy of 0.963
+On level 10, I added feature 30 to current set
+-----------------------------------------------
+
+On the 11 level of the search tree
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 2] : 0.766
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 3] : 0.766
+-- Considering adding the 4 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 4] : 0.782
+-- Considering adding the 5 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 5] : 0.76
+-- Considering adding the 6 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 6] : 0.788
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 7] : 0.78
+-- Considering adding the 9 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 9] : 0.79
+-- Considering adding the 11 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 11] : 0.78
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 13] : 0.767
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 14] : 0.783
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 15] : 0.771
+-- Considering adding the 16 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 16] : 0.784
+-- Considering adding the 17 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 17] : 0.767
+-- Considering adding the 19 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 19] : 0.777
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 20] : 0.789
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 22] : 0.778
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 23] : 0.774
+-- Considering adding the 24 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 24] : 0.783
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 25] : 0.77
+-- Considering adding the 26 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 26] : 0.78
+-- Considering adding the 28 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 28] : 0.779
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 31] : 0.763
+-- Considering adding the 32 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32] : 0.792
+-- Considering adding the 34 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 34] : 0.785
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 35] : 0.785
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 36] : 0.775
+-- Considering adding the 37 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 37] : 0.786
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 38] : 0.774
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 39] : 0.772
+-- Considering adding the 40 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 40] : 0.78
+
+The best accuracy at this level, 0.792 was less than the best so far accuracy of 0.963
+On level 11, I added feature 32 to current set
+-----------------------------------------------
+
+On the 12 level of the search tree
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 2] : 0.766
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 3] : 0.752
+-- Considering adding the 4 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 4] : 0.771
+-- Considering adding the 5 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 5] : 0.76
+-- Considering adding the 6 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 6] : 0.785
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 7] : 0.77
+-- Considering adding the 9 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 9] : 0.773
+-- Considering adding the 11 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 11] : 0.779
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 13] : 0.765
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 14] : 0.772
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 15] : 0.764
+-- Considering adding the 16 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 16] : 0.767
+-- Considering adding the 17 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 17] : 0.761
+-- Considering adding the 19 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 19] : 0.77
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 20] : 0.764
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 22] : 0.769
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 23] : 0.762
+-- Considering adding the 24 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 24] : 0.78
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 25] : 0.775
+-- Considering adding the 26 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 26] : 0.771
+-- Considering adding the 28 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 28] : 0.753
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 31] : 0.782
+-- Considering adding the 34 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 34] : 0.783
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 35] : 0.77
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 36] : 0.78
+-- Considering adding the 37 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 37] : 0.775
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 38] : 0.769
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 39] : 0.767
+-- Considering adding the 40 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40] : 0.796
+
+The best accuracy at this level, 0.796 was less than the best so far accuracy of 0.963
+On level 12, I added feature 40 to current set
+-----------------------------------------------
+
+On the 13 level of the search tree
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 2] : 0.764
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 3] : 0.754
+-- Considering adding the 4 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 4] : 0.777
+-- Considering adding the 5 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 5] : 0.762
+-- Considering adding the 6 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6] : 0.784
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 7] : 0.771
+-- Considering adding the 9 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 9] : 0.772
+-- Considering adding the 11 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 11] : 0.771
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 13] : 0.756
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 14] : 0.752
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 15] : 0.754
+-- Considering adding the 16 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 16] : 0.765
+-- Considering adding the 17 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 17] : 0.78
+-- Considering adding the 19 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 19] : 0.752
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 20] : 0.752
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 22] : 0.769
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 23] : 0.756
+-- Considering adding the 24 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 24] : 0.757
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 25] : 0.772
+-- Considering adding the 26 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 26] : 0.77
+-- Considering adding the 28 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 28] : 0.743
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 31] : 0.764
+-- Considering adding the 34 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 34] : 0.779
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 35] : 0.779
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 36] : 0.768
+-- Considering adding the 37 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 37] : 0.773
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 38] : 0.762
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 39] : 0.759
+
+The best accuracy at this level, 0.784 was less than the best so far accuracy of 0.963
+On level 13, I added feature 6 to current set
+-----------------------------------------------
+
+On the 14 level of the search tree
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 2] : 0.774
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 3] : 0.767
+-- Considering adding the 4 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 4] : 0.755
+-- Considering adding the 5 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 5] : 0.764
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 7] : 0.76
+-- Considering adding the 9 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 9] : 0.771
+-- Considering adding the 11 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 11] : 0.781
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 13] : 0.758
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 14] : 0.752
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 15] : 0.743
+-- Considering adding the 16 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16] : 0.787
+-- Considering adding the 17 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 17] : 0.766
+-- Considering adding the 19 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 19] : 0.76
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 20] : 0.748
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 22] : 0.752
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 23] : 0.758
+-- Considering adding the 24 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 24] : 0.756
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 25] : 0.773
+-- Considering adding the 26 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 26] : 0.767
+-- Considering adding the 28 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 28] : 0.748
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 31] : 0.759
+-- Considering adding the 34 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 34] : 0.769
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 35] : 0.769
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 36] : 0.771
+-- Considering adding the 37 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 37] : 0.78
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 38] : 0.767
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 39] : 0.757
+
+The best accuracy at this level, 0.787 was less than the best so far accuracy of 0.963
+On level 14, I added feature 16 to current set
+-----------------------------------------------
+
+On the 15 level of the search tree
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 2] : 0.76
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 3] : 0.757
+-- Considering adding the 4 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 4] : 0.753
+-- Considering adding the 5 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 5] : 0.746
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 7] : 0.76
+-- Considering adding the 9 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 9] : 0.776
+-- Considering adding the 11 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 11] : 0.765
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 13] : 0.741
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 14] : 0.738
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 15] : 0.738
+-- Considering adding the 17 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 17] : 0.773
+-- Considering adding the 19 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 19] : 0.763
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 20] : 0.754
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 22] : 0.756
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 23] : 0.76
+-- Considering adding the 24 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 24] : 0.753
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 25] : 0.769
+-- Considering adding the 26 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 26] : 0.755
+-- Considering adding the 28 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 28] : 0.753
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 31] : 0.762
+-- Considering adding the 34 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 34] : 0.746
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 35] : 0.767
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 36] : 0.755
+-- Considering adding the 37 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37] : 0.778
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 38] : 0.771
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 39] : 0.746
+
+The best accuracy at this level, 0.778 was less than the best so far accuracy of 0.963
+On level 15, I added feature 37 to current set
+-----------------------------------------------
+
+On the 16 level of the search tree
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 2] : 0.757
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 3] : 0.749
+-- Considering adding the 4 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 4] : 0.752
+-- Considering adding the 5 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 5] : 0.746
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 7] : 0.762
+-- Considering adding the 9 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 9] : 0.766
+-- Considering adding the 11 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11] : 0.767
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 13] : 0.757
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 14] : 0.746
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 15] : 0.737
+-- Considering adding the 17 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 17] : 0.76
+-- Considering adding the 19 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 19] : 0.756
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 20] : 0.759
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 22] : 0.74
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 23] : 0.756
+-- Considering adding the 24 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 24] : 0.751
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 25] : 0.737
+-- Considering adding the 26 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 26] : 0.754
+-- Considering adding the 28 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 28] : 0.738
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 31] : 0.763
+-- Considering adding the 34 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 34] : 0.753
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 35] : 0.752
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 36] : 0.762
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 38] : 0.751
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 39] : 0.744
+
+The best accuracy at this level, 0.767 was less than the best so far accuracy of 0.963
+On level 16, I added feature 11 to current set
+-----------------------------------------------
+
+On the 17 level of the search tree
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 2] : 0.754
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 3] : 0.748
+-- Considering adding the 4 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 4] : 0.755
+-- Considering adding the 5 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 5] : 0.747
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 7] : 0.758
+-- Considering adding the 9 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 9] : 0.746
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 13] : 0.741
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 14] : 0.73
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 15] : 0.749
+-- Considering adding the 17 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 17] : 0.754
+-- Considering adding the 19 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 19] : 0.761
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 20] : 0.749
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 22] : 0.736
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 23] : 0.757
+-- Considering adding the 24 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24] : 0.762
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 25] : 0.736
+-- Considering adding the 26 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 26] : 0.744
+-- Considering adding the 28 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 28] : 0.731
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 31] : 0.756
+-- Considering adding the 34 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 34] : 0.744
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 35] : 0.742
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 36] : 0.748
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 38] : 0.741
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 39] : 0.753
+
+The best accuracy at this level, 0.762 was less than the best so far accuracy of 0.963
+On level 17, I added feature 24 to current set
+-----------------------------------------------
+
+On the 18 level of the search tree
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 2] : 0.751
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 3] : 0.727
+-- Considering adding the 4 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 4] : 0.724
+-- Considering adding the 5 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 5] : 0.739
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 7] : 0.736
+-- Considering adding the 9 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9] : 0.766
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 13] : 0.733
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 14] : 0.73
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 15] : 0.746
+-- Considering adding the 17 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 17] : 0.743
+-- Considering adding the 19 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 19] : 0.749
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 20] : 0.732
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 22] : 0.742
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 23] : 0.754
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 25] : 0.731
+-- Considering adding the 26 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 26] : 0.748
+-- Considering adding the 28 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 28] : 0.727
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 31] : 0.752
+-- Considering adding the 34 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 34] : 0.733
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 35] : 0.729
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 36] : 0.728
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 38] : 0.741
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 39] : 0.741
+
+The best accuracy at this level, 0.766 was less than the best so far accuracy of 0.963
+On level 18, I added feature 9 to current set
+-----------------------------------------------
+
+On the 19 level of the search tree
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 2] : 0.745
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 3] : 0.744
+-- Considering adding the 4 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 4] : 0.736
+-- Considering adding the 5 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 5] : 0.751
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 7] : 0.749
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 13] : 0.742
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 14] : 0.723
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 15] : 0.75
+-- Considering adding the 17 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 17] : 0.738
+-- Considering adding the 19 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 19] : 0.75
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 20] : 0.746
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 22] : 0.737
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 23] : 0.743
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 25] : 0.743
+-- Considering adding the 26 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 26] : 0.75
+-- Considering adding the 28 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 28] : 0.746
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 31] : 0.742
+-- Considering adding the 34 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34] : 0.756
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 35] : 0.741
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 36] : 0.733
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 38] : 0.745
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 39] : 0.739
+
+The best accuracy at this level, 0.756 was less than the best so far accuracy of 0.963
+On level 19, I added feature 34 to current set
+-----------------------------------------------
+
+On the 20 level of the search tree
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 2] : 0.751
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 3] : 0.736
+-- Considering adding the 4 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 4] : 0.737
+-- Considering adding the 5 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 5] : 0.737
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 7] : 0.735
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 13] : 0.728
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 14] : 0.724
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 15] : 0.736
+-- Considering adding the 17 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17] : 0.754
+-- Considering adding the 19 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 19] : 0.744
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 20] : 0.724
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 22] : 0.749
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 23] : 0.745
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 25] : 0.749
+-- Considering adding the 26 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 26] : 0.753
+-- Considering adding the 28 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 28] : 0.745
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 31] : 0.747
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 35] : 0.733
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 36] : 0.73
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 38] : 0.738
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 39] : 0.733
+
+The best accuracy at this level, 0.754 was less than the best so far accuracy of 0.963
+On level 20, I added feature 17 to current set
+-----------------------------------------------
+
+On the 21 level of the search tree
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 2] : 0.744
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 3] : 0.74
+-- Considering adding the 4 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4] : 0.752
+-- Considering adding the 5 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 5] : 0.738
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 7] : 0.749
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 13] : 0.727
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 14] : 0.731
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 15] : 0.75
+-- Considering adding the 19 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 19] : 0.74
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 20] : 0.713
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 22] : 0.732
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 23] : 0.75
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 25] : 0.752
+-- Considering adding the 26 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 26] : 0.733
+-- Considering adding the 28 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 28] : 0.74
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 31] : 0.744
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 35] : 0.727
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 36] : 0.726
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 38] : 0.731
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 39] : 0.722
+
+The best accuracy at this level, 0.752 was less than the best so far accuracy of 0.963
+On level 21, I added feature 4 to current set
+-----------------------------------------------
+
+On the 22 level of the search tree
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 2] : 0.739
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 3] : 0.728
+-- Considering adding the 5 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 5] : 0.726
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 7] : 0.739
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 13] : 0.729
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 14] : 0.742
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 15] : 0.725
+-- Considering adding the 19 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 19] : 0.733
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 20] : 0.714
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 22] : 0.735
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 23] : 0.734
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 25] : 0.73
+-- Considering adding the 26 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26] : 0.745
+-- Considering adding the 28 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 28] : 0.745
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 31] : 0.734
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 35] : 0.733
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 36] : 0.718
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 38] : 0.722
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 39] : 0.736
+
+The best accuracy at this level, 0.745 was less than the best so far accuracy of 0.963
+On level 22, I added feature 26 to current set
+-----------------------------------------------
+
+On the 23 level of the search tree
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 2] : 0.724
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 3] : 0.717
+-- Considering adding the 5 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 5] : 0.717
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 7] : 0.735
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 13] : 0.716
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 14] : 0.73
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 15] : 0.729
+-- Considering adding the 19 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 19] : 0.743
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 20] : 0.718
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 22] : 0.727
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 23] : 0.736
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 25] : 0.718
+-- Considering adding the 28 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28] : 0.745
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 31] : 0.717
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 35] : 0.716
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 36] : 0.709
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 38] : 0.731
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 39] : 0.722
+
+The best accuracy at this level, 0.745 was less than the best so far accuracy of 0.963
+On level 23, I added feature 28 to current set
+-----------------------------------------------
+
+On the 24 level of the search tree
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 2] : 0.735
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 3] : 0.732
+-- Considering adding the 5 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 5] : 0.723
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 7] : 0.723
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 13] : 0.717
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 14] : 0.726
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 15] : 0.733
+-- Considering adding the 19 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19] : 0.751
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 20] : 0.731
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 22] : 0.725
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 23] : 0.744
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 25] : 0.738
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 31] : 0.722
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 35] : 0.718
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 36] : 0.715
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 38] : 0.744
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 39] : 0.736
+
+The best accuracy at this level, 0.751 was less than the best so far accuracy of 0.963
+On level 24, I added feature 19 to current set
+-----------------------------------------------
+
+On the 25 level of the search tree
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 2] : 0.735
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 3] : 0.743
+-- Considering adding the 5 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5] : 0.75
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 7] : 0.737
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 13] : 0.725
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 14] : 0.735
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 15] : 0.728
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 20] : 0.726
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 22] : 0.738
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 23] : 0.746
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 25] : 0.737
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 31] : 0.735
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 35] : 0.734
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 36] : 0.74
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 38] : 0.75
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 39] : 0.739
+
+The best accuracy at this level, 0.75 was less than the best so far accuracy of 0.963
+On level 25, I added feature 5 to current set
+-----------------------------------------------
+
+On the 26 level of the search tree
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 2] : 0.736
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 3] : 0.727
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 7] : 0.735
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 13] : 0.726
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 14] : 0.727
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 15] : 0.724
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 20] : 0.725
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 22] : 0.734
+-- Considering adding the 23 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23] : 0.75
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 25] : 0.731
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 31] : 0.722
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 35] : 0.724
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 36] : 0.732
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 38] : 0.746
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 39] : 0.735
+
+The best accuracy at this level, 0.75 was less than the best so far accuracy of 0.963
+On level 26, I added feature 23 to current set
+-----------------------------------------------
+
+On the 27 level of the search tree
+-- Considering adding the 2 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2] : 0.747
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 3] : 0.745
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 7] : 0.734
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 13] : 0.742
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 14] : 0.736
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 15] : 0.724
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 20] : 0.732
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 22] : 0.727
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 25] : 0.735
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 31] : 0.736
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 35] : 0.735
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 36] : 0.734
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 38] : 0.747
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 39] : 0.744
+
+The best accuracy at this level, 0.747 was less than the best so far accuracy of 0.963
+On level 27, I added feature 2 to current set
+-----------------------------------------------
+
+On the 28 level of the search tree
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 3] : 0.729
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 7] : 0.735
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 13] : 0.731
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 14] : 0.723
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 15] : 0.729
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 20] : 0.733
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 22] : 0.722
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 25] : 0.725
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 31] : 0.728
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 35] : 0.731
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 36] : 0.726
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 38] : 0.742
+-- Considering adding the 39 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39] : 0.747
+
+The best accuracy at this level, 0.747 was less than the best so far accuracy of 0.963
+On level 28, I added feature 39 to current set
+-----------------------------------------------
+
+On the 29 level of the search tree
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 3] : 0.723
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 7] : 0.73
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 13] : 0.722
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 14] : 0.725
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 15] : 0.725
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 20] : 0.716
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 22] : 0.729
+-- Considering adding the 25 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25] : 0.738
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 31] : 0.731
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 35] : 0.737
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 36] : 0.729
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 38] : 0.726
+
+The best accuracy at this level, 0.738 was less than the best so far accuracy of 0.963
+On level 29, I added feature 25 to current set
+-----------------------------------------------
+
+On the 30 level of the search tree
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 3] : 0.716
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 7] : 0.727
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 13] : 0.711
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 14] : 0.726
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 15] : 0.711
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 20] : 0.717
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 22] : 0.72
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 31] : 0.725
+-- Considering adding the 35 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35] : 0.735
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 36] : 0.716
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 38] : 0.73
+
+The best accuracy at this level, 0.735 was less than the best so far accuracy of 0.963
+On level 30, I added feature 35 to current set
+-----------------------------------------------
+
+On the 31 level of the search tree
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 3] : 0.71
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 7] : 0.721
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 13] : 0.712
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 14] : 0.723
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 15] : 0.708
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 20] : 0.721
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 22] : 0.718
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 31] : 0.727
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 36] : 0.726
+-- Considering adding the 38 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38] : 0.729
+
+The best accuracy at this level, 0.729 was less than the best so far accuracy of 0.963
+On level 31, I added feature 38 to current set
+-----------------------------------------------
+
+On the 32 level of the search tree
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 3] : 0.721
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 7] : 0.719
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 13] : 0.709
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 14] : 0.718
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 15] : 0.722
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 20] : 0.721
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 22] : 0.722
+-- Considering adding the 31 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31] : 0.731
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 36] : 0.718
+
+The best accuracy at this level, 0.731 was less than the best so far accuracy of 0.963
+On level 32, I added feature 31 to current set
+-----------------------------------------------
+
+On the 33 level of the search tree
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 3] : 0.717
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 7] : 0.717
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 13] : 0.724
+-- Considering adding the 14 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14] : 0.725
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 15] : 0.719
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 20] : 0.721
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 22] : 0.721
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 36] : 0.721
+
+The best accuracy at this level, 0.725 was less than the best so far accuracy of 0.963
+On level 33, I added feature 14 to current set
+-----------------------------------------------
+
+On the 34 level of the search tree
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 3] : 0.697
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 7] : 0.714
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 13] : 0.704
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 15] : 0.712
+-- Considering adding the 20 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 20] : 0.72
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 22] : 0.72
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 36] : 0.711
+
+The best accuracy at this level, 0.72 was less than the best so far accuracy of 0.963
+On level 34, I added feature 20 to current set
+-----------------------------------------------
+
+On the 35 level of the search tree
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 20, 3] : 0.71
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 20, 7] : 0.702
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 20, 13] : 0.709
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 20, 15] : 0.698
+-- Considering adding the 22 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 20, 22] : 0.718
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 20, 36] : 0.699
+
+The best accuracy at this level, 0.718 was less than the best so far accuracy of 0.963
+On level 35, I added feature 22 to current set
+-----------------------------------------------
+
+On the 36 level of the search tree
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 20, 22, 3] : 0.703
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 20, 22, 7] : 0.688
+-- Considering adding the 13 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 20, 22, 13] : 0.715
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 20, 22, 15] : 0.702
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 20, 22, 36] : 0.703
+
+The best accuracy at this level, 0.715 was less than the best so far accuracy of 0.963
+On level 36, I added feature 13 to current set
+-----------------------------------------------
+
+On the 37 level of the search tree
+-- Considering adding the 3 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 20, 22, 13, 3] : 0.704
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 20, 22, 13, 7] : 0.695
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 20, 22, 13, 15] : 0.699
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 20, 22, 13, 36] : 0.703
+
+The best accuracy at this level, 0.704 was less than the best so far accuracy of 0.963
+On level 37, I added feature 3 to current set
+-----------------------------------------------
+
+On the 38 level of the search tree
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 20, 22, 13, 3, 7] : 0.686
+-- Considering adding the 15 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 20, 22, 13, 3, 15] : 0.704
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 20, 22, 13, 3, 36] : 0.688
+
+The best accuracy at this level, 0.704 was less than the best so far accuracy of 0.963
+On level 38, I added feature 15 to current set
+-----------------------------------------------
+
+On the 39 level of the search tree
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 20, 22, 13, 3, 15, 7] : 0.676
+-- Considering adding the 36 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 20, 22, 13, 3, 15, 36] : 0.681
+
+The best accuracy at this level, 0.681 was less than the best so far accuracy of 0.963
+On level 39, I added feature 36 to current set
+-----------------------------------------------
+
+On the 40 level of the search tree
+-- Considering adding the 7 feature
+---- accuracy with [21, 10, 8, 12, 33, 29, 27, 1, 18, 30, 32, 40, 6, 16, 37, 11, 24, 9, 34, 17, 4, 26, 28, 19, 5, 23, 2, 39, 25, 35, 38, 31, 14, 20, 22, 13, 3, 15, 36, 7] : 0.67
+
+The best accuracy at this level, 0.67 was less than the best so far accuracy of 0.963
+On level 40, I added feature 7 to current set
+-----------------------------------------------
+
+The best features are [21, 10] with accuracy 0.963
+
+Elapsed time: 1690.3718931674957 seconds
+
