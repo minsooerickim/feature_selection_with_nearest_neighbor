@@ -71,10 +71,6 @@ def forward_selection(data):
                 accuracy = leave_one_out_cross_validation(data, current_set_of_features+[j])
                 print(f'---- accuracy with {current_set_of_features+[j]} : {accuracy}')
 
-                # store accuracy for plotting bar chart with matlab
-                matlab_accuracy.append(accuracy)
-                matlab_feature_set.append(current_set_of_features+[j])
-
                 if accuracy > best_so_far_accuracy:
                     best_so_far_accuracy = accuracy
                     best_feature_to_add_at_this_level = j
@@ -88,11 +84,19 @@ def forward_selection(data):
             best_features = [feature for feature in current_set_of_features]
             print(f'\nfeature subset {best_features} had the highest accuracy of {best_so_far_accuracy}')
             print(f'On level {i+1}, I added feature {best_feature_to_add_at_this_level} to current set')
+            
+            # store accuracy for plotting bar chart with matlab
+            matlab_accuracy.append(best_so_far_accuracy)
+            matlab_feature_set.append(current_set_of_features.copy())
         else:
             # add feature to current_set_of_features regardless of better_accuracy_found for potential higher accuracy late on
             current_set_of_features.append(lvl_feature)
             print(f'\nThe best accuracy at this level, {current_set_of_features} : {best_lvl_accuracy} was less than the best so far accuracy of {best_so_far_accuracy}')
             print(f'On level {i+1}, I added feature {lvl_feature} to current set')
+            
+            # store accuracy for plotting bar chart with matlab
+            matlab_accuracy.append(best_lvl_accuracy)
+            matlab_feature_set.append(current_set_of_features.copy())
 
         print('-----------------------------------------------')
 
@@ -105,6 +109,10 @@ def backward_elimination(data):
     num_features = len(data[0]) - 1
     current_set_of_features, best_features = [i+1 for i in range(num_features)], [i+1 for i in range(num_features)]
 
+    # initial accuracy and feature set for matlab plotting
+    matlab_accuracy.append(leave_one_out_cross_validation(data, current_set_of_features))
+    matlab_feature_set.append(current_set_of_features.copy())
+    
     best_so_far_accuracy = leave_one_out_cross_validation(data, current_set_of_features)
     for i in range(num_features):
         print(f'\nOn the {i+1} level of the search tree')
@@ -128,12 +136,16 @@ def backward_elimination(data):
                 elif accuracy >= best_lvl_accuracy:
                     best_lvl_accuracy = accuracy
                     lvl_feature_to_remove = j
-
+        print(matlab_feature_set)
         if better_accuracy_found: 
             current_set_of_features.remove(best_feature_to_remove_at_this_level)
             best_features = [feature for feature in current_set_of_features]
             print(f'\nfeature subset {best_features} had the highest accuracy of {best_so_far_accuracy}')
             print(f'On level {i+1}, I removed feature {best_feature_to_remove_at_this_level} from the current set')
+
+            # store accuracy for plotting bar chart with matlab
+            matlab_accuracy.append(best_so_far_accuracy)
+            matlab_feature_set.append(current_set_of_features.copy())
         else:
             # add feature to current_set_of_features regardless of better_accuracy_found for potential higher accuracy late on
             current_set_of_features.remove(lvl_feature_to_remove)
@@ -141,6 +153,10 @@ def backward_elimination(data):
             print(f'\nThe best accuracy at this level, {best_lvl_accuracy} was less than the best so far accuracy of {best_so_far_accuracy}')
             print(f'\nThe current set is now {current_set_of_features}')
             print(f'On level {i+1}, I removed feature {lvl_feature_to_remove} from the current set')
+
+            # store accuracy for plotting bar chart with matlab
+            matlab_accuracy.append(best_lvl_accuracy)
+            matlab_feature_set.append(current_set_of_features.copy())
 
         print('-----------------------------------------------')
 
@@ -162,6 +178,13 @@ def read_data(file):
 def main():
     file_name = input('Enter the input file name: ')
     data = read_data(file_name)
+
+    num_features, num_instances = len(data[0]) - 1, len(data)
+    all_feature_set = [i+1 for i in range(num_features)]
+    print(all_feature_set)
+    all_accuracy = leave_one_out_cross_validation(data, all_feature_set)
+    print(f'\nThis data set has {num_features} features with {num_instances} instances.')
+    print(f'\nRunning nearest neighbor with all {num_features}, using "leaving-one-out" evaluation, I get an accuracy of {all_accuracy}')
     # data = read_data('CS170_Large_Data__78.txt')
     
     option = str(input('\n1. forward selection\n2. backward_elimination\n'))
