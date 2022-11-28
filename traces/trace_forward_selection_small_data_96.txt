@@ -7,6 +7,8 @@ Running nearest neighbor with all 6, using "leaving-one-out" evaluation, I get a
 1. forward selection
 2. backward_elimination
 
+accuracy with 0 features, 0.816
+
 On the 1 level of the search tree
 -- Considering adding the 1 feature
 ---- accuracy with [1] : 0.874
@@ -87,5 +89,5 @@ On level 6, I added feature 2 to current set
 
 The best features are [1, 6] with accuracy 0.948
 
-Elapsed time: 3.0446698665618896 seconds
+Elapsed time: 3.9605610370635986 seconds
 
