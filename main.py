@@ -56,6 +56,7 @@ def forward_selection(data):
     matlab_accuracy.append(leave_one_out_cross_validation(data, []))
     matlab_feature_set.append([])
 
+    print(f'\naccuracy with 0 features, {leave_one_out_cross_validation(data, [])}')
     best_so_far_accuracy = 0
     for i in range(num_features):
         print(f'\nOn the {i+1} level of the search tree')
