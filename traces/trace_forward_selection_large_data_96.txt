@@ -7,6 +7,8 @@ Running nearest neighbor with all 40, using "leaving-one-out" evaluation, I get 
 1. forward selection
 2. backward_elimination
 
+accuracy with 0 features, 0.805
+
 On the 1 level of the search tree
 -- Considering adding the 1 feature
 ---- accuracy with [1] : 0.667
