@@ -10,21 +10,31 @@ matlab_feature_set, matlab_accuracy = [], []
 
 #TODO: Add more comments and typings
 def nearest_neighbor_classifier(data, object_to_classify, current_set):
+    """
+    Use Euclidean distance as our distance function in our nearest neighbor classifier.
+    """
+    # initialize the distance and location to infinity so they can be replaced with our actual calculations
     nearest_neighbor_distance, nearest_neighbor_location = math.inf, math.inf
+
+    # loop through our entire dataset and ONLY consider the current features in our feature subset
     for i in range(len(data)):
+        # skip the object we are trying to classify since that will obvious be the closest distance and mess up our accuracy
         if i == object_to_classify:
             continue
 
         distance = 0
+        # use euclidean distance for our distance function
         for j in range(len(current_set)):
             distance += pow((data[i][current_set[j]] - data[object_to_classify][current_set[j]]), 2)
         distance = math.sqrt(distance)
 
+        # update the nearest neighbor properties accordingly when a closer neighbor is found
         if distance < nearest_neighbor_distance:
             nearest_neighbor_distance = distance
             nearest_neighbor_location = i
             nearest_neighbor_label = data[nearest_neighbor_location][0]
 
+    # return the label of the nereast neighbor
     return nearest_neighbor_label
 
 
@@ -35,11 +45,13 @@ def leave_one_out_cross_validation(data, current_set):
 
     Accuracy = # of correct classifications / # of instances in our database.
     """
+    # count to keep track of number of correctly classified objects
     number_correctly_classified = 0
     for i in range(len(data)):
         label_object_to_classify = data[i][0]
         nearest_neighbor_label = nearest_neighbor_classifier(data, i, current_set)
         
+        # increment counter if the object was correctly classified
         if label_object_to_classify == nearest_neighbor_label:
             number_correctly_classified += 1
     accuracy = number_correctly_classified / len(data)
@@ -69,17 +81,23 @@ def forward_selection(data):
             if j not in current_set_of_features:
                 print(f'-- Considering adding the {j} feature')
                 
+                # use leave one out cross validation to get the accuracy of the current feature considering the j'th feature
                 accuracy = leave_one_out_cross_validation(data, current_set_of_features+[j])
                 print(f'---- accuracy with {current_set_of_features+[j]} : {accuracy}')
 
+                # update the accuracy, feature if a best so far accuracy is found
+                # if best so far accuracy is not found, we still want to add the best accuracy from that level in order to continue searching
                 if accuracy > best_so_far_accuracy:
                     best_so_far_accuracy = accuracy
                     best_feature_to_add_at_this_level = j
+                    # by setting a flag, we can tell whether best_so_far_accuracy was found at this level or not
                     better_accuracy_found = True
                 elif accuracy > best_lvl_accuracy:
                     best_lvl_accuracy = accuracy
                     lvl_feature = j
-
+        
+        # using the better_accuracy_found flag set in line 94, we can determine if a best_so_far_accuracy was found at the i+1'th level of the search tree
+        # we update our current_set_of_features accordingly
         if better_accuracy_found: 
             current_set_of_features.append(best_feature_to_add_at_this_level)
             best_features = [feature for feature in current_set_of_features]
@@ -126,18 +144,26 @@ def backward_elimination(data):
             if j in current_set_of_features:
                 print(f'-- Considering removing the {j} feature')
             
+                # create a set excluding the j'th feature so we can calculate the accuracy of it
                 copy_set = [feature for feature in current_set_of_features if feature != j]
+                # use leave one out cross validation to get the accuracy of the current feature considering removing the j'th feature
                 accuracy = leave_one_out_cross_validation(data, copy_set)
                 print(f'---- accuracy with {copy_set} : {accuracy}')
 
+                # update the accuracy, feature if a best so far accuracy is found
+                # if best so far accuracy is not found, we still want to add the best accuracy from that level in order to continue searching
                 if accuracy > best_so_far_accuracy:
                     best_so_far_accuracy = accuracy
                     best_feature_to_remove_at_this_level = j
+                    # by setting a flag, we can tell whether best_so_far_accuracy was found at this level or not
                     better_accuracy_found = True
                 elif accuracy >= best_lvl_accuracy:
                     best_lvl_accuracy = accuracy
                     lvl_feature_to_remove = j
         print(matlab_feature_set)
+
+        # using the better_accuracy_found flag set in line 94, we can determine if a best_so_far_accuracy was found at the i+1'th level of the search tree
+        # we update our current_set_of_features accordingly
         if better_accuracy_found: 
             current_set_of_features.remove(best_feature_to_remove_at_this_level)
             best_features = [feature for feature in current_set_of_features]
@@ -164,6 +190,9 @@ def backward_elimination(data):
     print(f'\nThe best features are {best_features} with accuracy {best_so_far_accuracy}')
 
 def read_data(file):
+    """
+    Read the data set and store the data in a list of lists.
+    """
     f = open(file, 'r')
     lines = f.readlines()
     num_instances = sum(1 for _ in lines)
@@ -180,6 +209,7 @@ def main():
     file_name = input('Enter the input file name: ')
     data = read_data(file_name)
 
+    # figure out number of features and instances using the data array we created with the read_data fn.
     num_features, num_instances = len(data[0]) - 1, len(data)
     all_feature_set = [i+1 for i in range(num_features)]
     print(all_feature_set)
@@ -193,6 +223,7 @@ def main():
     # time to measure the elapsed time of the algorithm to be run
     start_time = time()
 
+    # call the according function based on user input
     if option == '1': forward_selection(data)
     elif option == '2': backward_elimination(data)
     else: 
@@ -201,8 +232,9 @@ def main():
 
     end_time = time()
     # take the difference between start_time and end_time to find the total elapsed time
-    print(f"\nElapsed time: {end_time - start_time} seconds\n")
+    print(f"\nElapsed time: {(end_time - start_time):.3f} seconds\n")
 
+    # call the matlab graph utility function I created
     graph(matlab_accuracy, matlab_feature_set, file_name)
 main()
 
