@@ -89,5 +89,5 @@ On level 6, I added feature 2 to current set
 
 The best features are [1, 6] with accuracy 0.948
 
-Elapsed time: 3.9605610370635986 seconds
+Elapsed time: 3.935 seconds
 

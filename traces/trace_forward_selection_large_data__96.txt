@@ -1891,5 +1891,5 @@ On level 40, I added feature 7 to current set
 
 The best features are [21, 10] with accuracy 0.963
 
-Elapsed time: 1662.3423211574554 seconds
+Elapsed time: 2090.437 seconds
 
