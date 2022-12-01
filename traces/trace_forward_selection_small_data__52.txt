@@ -1,0 +1,93 @@
+Enter the input file name: [1, 2, 3, 4, 5, 6]
+
+This data set has 6 features with 500 instances.
+
+Running nearest neighbor with all 6, using "leaving-one-out" evaluation, I get an accuracy of 0.816
+
+1. forward selection
+2. backward_elimination
+
+accuracy with 0 features, 0.828
+
+On the 1 level of the search tree
+-- Considering adding the 1 feature
+---- accuracy with [1] : 0.692
+-- Considering adding the 2 feature
+---- accuracy with [2] : 0.712
+-- Considering adding the 3 feature
+---- accuracy with [3] : 0.74
+-- Considering adding the 4 feature
+---- accuracy with [4] : 0.716
+-- Considering adding the 5 feature
+---- accuracy with [5] : 0.852
+-- Considering adding the 6 feature
+---- accuracy with [6] : 0.706
+
+feature subset [5] had the highest accuracy of 0.852
+On level 1, I added feature 5 to current set
+-----------------------------------------------
+
+On the 2 level of the search tree
+-- Considering adding the 1 feature
+---- accuracy with [5, 1] : 0.816
+-- Considering adding the 2 feature
+---- accuracy with [5, 2] : 0.834
+-- Considering adding the 3 feature
+---- accuracy with [5, 3] : 0.948
+-- Considering adding the 4 feature
+---- accuracy with [5, 4] : 0.84
+-- Considering adding the 6 feature
+---- accuracy with [5, 6] : 0.786
+
+feature subset [5, 3] had the highest accuracy of 0.948
+On level 2, I added feature 3 to current set
+-----------------------------------------------
+
+On the 3 level of the search tree
+-- Considering adding the 1 feature
+---- accuracy with [5, 3, 1] : 0.916
+-- Considering adding the 2 feature
+---- accuracy with [5, 3, 2] : 0.936
+-- Considering adding the 4 feature
+---- accuracy with [5, 3, 4] : 0.92
+-- Considering adding the 6 feature
+---- accuracy with [5, 3, 6] : 0.924
+
+The best accuracy at this level, [5, 3, 2] : 0.936 was less than the best so far accuracy of 0.948
+On level 3, I added feature 2 to current set
+-----------------------------------------------
+
+On the 4 level of the search tree
+-- Considering adding the 1 feature
+---- accuracy with [5, 3, 2, 1] : 0.886
+-- Considering adding the 4 feature
+---- accuracy with [5, 3, 2, 4] : 0.912
+-- Considering adding the 6 feature
+---- accuracy with [5, 3, 2, 6] : 0.894
+
+The best accuracy at this level, [5, 3, 2, 4] : 0.912 was less than the best so far accuracy of 0.948
+On level 4, I added feature 4 to current set
+-----------------------------------------------
+
+On the 5 level of the search tree
+-- Considering adding the 1 feature
+---- accuracy with [5, 3, 2, 4, 1] : 0.842
+-- Considering adding the 6 feature
+---- accuracy with [5, 3, 2, 4, 6] : 0.846
+
+The best accuracy at this level, [5, 3, 2, 4, 6] : 0.846 was less than the best so far accuracy of 0.948
+On level 5, I added feature 6 to current set
+-----------------------------------------------
+
+On the 6 level of the search tree
+-- Considering adding the 1 feature
+---- accuracy with [5, 3, 2, 4, 6, 1] : 0.816
+
+The best accuracy at this level, [5, 3, 2, 4, 6, 1] : 0.816 was less than the best so far accuracy of 0.948
+On level 6, I added feature 1 to current set
+-----------------------------------------------
+
+The best features are [5, 3] with accuracy 0.948
+
+Elapsed time: 3.954 seconds
+
